@@ -1,0 +1,9 @@
+[submodule "Assets/Graphics"]
+	path = Assets/Graphics
+	url = https://github.com/mikantic/Graphics.git
+[submodule "Assets/Core"]
+	path = Assets/Core
+	url = https://github.com/mikantic/Core.git
+[submodule "Assets/Physics"]
+	path = Assets/Physics
+	url = https://github.com/mikantic/Physics.git
