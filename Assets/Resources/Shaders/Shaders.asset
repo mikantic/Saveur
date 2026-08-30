@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a309b63c6e63e9f4bad86a5492d63ab5, type: 3}
-  m_Name: Materials
+  m_Name: Shaders
   m_EditorClassIdentifier: 
-  _opaque: {fileID: 2100000, guid: cbf742a994c9baa4fa3e577544c9f964, type: 2}
-  _transparent: {fileID: 2100000, guid: 3e8acf9a06ae4ed4baa98e9c6c761c38, type: 2}
-  _opaqueDeform: {fileID: 2100000, guid: e4c062d02b068a44287d24cf9b330bf8, type: 2}
-  _transparentDeform: {fileID: 2100000, guid: 4c4668f13705cf64991d00cd2e68f1d9, type: 2}
+  _opaque: {fileID: 4800000, guid: 9021733a4f2ee604c82e823efbb5d80a, type: 3}
+  _transparent: {fileID: 4800000, guid: 8b1afd3f7b5a7e345a9eacf9d51bcc8b, type: 3}
+  _opaqueDeform: {fileID: 4800000, guid: 018f1eb59f6c8b442b9d31438150584e, type: 3}
+  _transparentDeform: {fileID: 4800000, guid: bc09fa19b49d2504088eb5655e918385, type: 3}
