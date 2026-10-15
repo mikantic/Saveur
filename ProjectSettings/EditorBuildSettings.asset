@@ -18,5 +18,5 @@ EditorBuildSettings:
     path: Assets/Physics/Testing.unity
     guid: d46d91d56244e1c4e8ffbb0fcc9bb9a9
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 94f4e27357f463342ba57ef6c427940b, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 0c56535c395faed43bd430239dbe77bc, type: 3}
   m_UseUCBPForAssetBundles: 0
