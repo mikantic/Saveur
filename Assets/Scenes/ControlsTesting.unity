@@ -3153,7 +3153,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: cf42b2ab7a884aa49abce00977e0a113, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 86a1b61545a7714458b7f56bdfeec86d, type: 2}
+      objectReference: {fileID: 2100000, guid: 742cfd7b5a308404db689dc11ad57bc6, type: 2}
     - target: {fileID: 919132149155446097, guid: cf42b2ab7a884aa49abce00977e0a113, type: 3}
       propertyPath: m_Name
       value: Platform2
@@ -3198,7 +3198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61d3fee38232f644499e16e01ee00533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 5
+  color: 6
   range: 1
   texture: {fileID: 2800000, guid: 728496fd474053e4f9aeb4a4075d24c6, type: 3}
 --- !u!64 &1191778022
