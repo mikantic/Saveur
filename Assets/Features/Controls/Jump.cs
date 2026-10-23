@@ -6,28 +6,25 @@ namespace Saveur.Controls
 {
     public class Jump : Behavior
     {
-        [SerializeField] protected Body body;
+        // to do: maybe use a jump height or something?
+
+        [SerializeField] protected Body entity;
         [SerializeField] protected float speed = 10f;
         [SerializeField] protected float duration = 0.25f;
 
         protected float startTime;
 
-        // should this handle 
-
         public override bool TryPerform()
         {
             startTime = Time.time;
 
-            body.AddForce(
+            entity.AddForce(
                 force: Vector3.up * 200,
                 magnitude: speed,
                 durationMode: DurationMode.Instant,
                 frictionMode: FrictionMode.None,
                 referenceMode: ReferenceMode.Local,
-                nullifiedDot: 0,
-                projectedDot: 0,
-                preserveMagnitude: false,
-                requireContacts: true
+                preserveMagnitude: false
             );
 
             return true;
@@ -41,16 +38,13 @@ namespace Saveur.Controls
                 return;
             }
 
-            body.AddForce(
+            entity.AddForce(
                 force: Vector3.up * 200,
                 magnitude: speed,
                 durationMode: DurationMode.Instant,
                 frictionMode: FrictionMode.None,
                 referenceMode: ReferenceMode.Local,
-                nullifiedDot: 0,
-                projectedDot: 0,
-                preserveMagnitude: false,
-                requireContacts: false
+                preserveMagnitude: false
             );
         }
     }
